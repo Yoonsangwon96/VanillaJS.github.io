@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>바닐라JS 2주 챌린지 기능 구현하기</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <!-- 실시간 시계 -->
+    <h1 id="clock">00:00</h1>
+
+    <!-- 비밀번호만을 사용한 로그인 -->
+    <form id="local_login" class="hide">
+        <input type="text" id="input_login" placeholder="비밀번호를 입력해주세요." required>
+        <button type="submit" id="btn_login">Login!🏃‍♂️</button>
+    </form>
+    <button class="btn_logout" class="hide"></button>
+    
+    
+    <script src="./clock.js"></script> <!-- 실시간 시계 -->
+    <script src="./login.js"></script> <!-- 로컬 스토리지를 활용한 로그인 -->
+</body>
+</html>
