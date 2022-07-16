@@ -17,9 +17,22 @@
         <button type="submit" id="btn_login">Login!🏃‍♂️</button>
     </form>
     <button class="btn_logout" class="hide"></button>
-    
-    
+
+    <!--todo 리스트 만들기 -->
+    <form action="" id="todo_form">
+        <input type="text" placeholder="작성하고 엔터를 쳐주세요" required>
+    </form>
+    <ul id="todo_list"></ul>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+
     <script src="./clock.js"></script> <!-- 실시간 시계 -->
     <script src="./login.js"></script> <!-- 로컬 스토리지를 활용한 로그인 -->
+    <script src="./todo.js"></script> <!-- 로컬 스토리지를 활용한 투두리스트 -->
+    <script src="./background.js"></script> <!-- 랜덤 배경 만들기 -->
+    <script src="./weather.js"></script> <!-- 날씨 API 불러오기 -->
 </body>
 </html>
